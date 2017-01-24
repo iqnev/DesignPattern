@@ -19,7 +19,7 @@ public class CartTest {
         cart.addItem(item2);
         cart.addItem(item1);
         
-        cart.pay(new PaypalStrategy("qnev89@gmail.com", "123456789"));
+        cart.pay(new PaypalStrategy("bgfortran@gmail.com", "123456789"));
         cart.pay(new CreditCardStrategy("1234567890123456", "123", "4/20", "Iqnev"));
     }
 }
